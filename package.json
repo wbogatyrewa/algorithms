@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "description": "Data Structures & Algorithms with LeetCode",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "lint": "npx eslint src/**/*.{ts,js}"
   },
   "author": "wbogatyrewa",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^29.5.2",
+    "@typescript-eslint/eslint-plugin": "^5.59.9",
+    "@typescript-eslint/parser": "^5.59.9",
+    "eslint": "^8.42.0",
+    "eslint-config-prettier": "^8.8.0",
     "jest": "^29.5.0",
+    "prettier": "^2.8.8",
     "ts-jest": "^29.1.0",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.3"
